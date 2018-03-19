@@ -2,9 +2,8 @@
 aenet package  tools 
 This tools used to connect aenet and VASP files
 
-#Now only have chinese version
 
-	1. Running MD，you can get XDATCAR and OUTCAR
+1. Running MD，you can get XDATCAR and OUTCAR
 
 
 	* PoscarFromXdatacarAse.py    
@@ -20,7 +19,7 @@ you can use for get poscar from xdatcar according to you set number and space ( 
 you can convert fraction poscar to cartesian or reverse. ( need ASE)
 
 
-	2. When you get all POSCAR，you can running static calculate，and for each POSCAR you will get a OUTCAR in a file. So you can use following scripts to get xsf from different type of OUTCAR file(Maybe all md results in only one OUTCAR or static results in each one OUTCAR) ：
+2. When you get all POSCAR，you can running static calculate，and for each POSCAR you will get a OUTCAR in a file. So you can use following scripts to get xsf from different type of OUTCAR file(Maybe all md results in only one OUTCAR or static results in each one OUTCAR) ：
 
 
 	* GenerateXsfFromEachOutcar.py     
@@ -33,7 +32,7 @@ For MD，you can use it to get all XSF file from MD's OUTCAR(Don't need XDATCAR)
 In this process, you can set begain  number and end number and space and you'll get "gogal" file which contain all xsf file
 
 
-	3. ANN generate
+3. ANN generate
 
 	* AtomeFingerprint.py
 
@@ -45,14 +44,14 @@ get "generate.in" file for generate
 Note: You must have “XXX.fingerprint.stp" file in current path
 
 
-	4. ANN train
+4. ANN train
 
 
 	* TrainErrorData.py
 
 By testing the neural network by script, the results can be divided into multiple files, and the data in the train and test process can be extracted for analysis.
 
-	5. ANN predict
+5. ANN predict
 
 
 	* XsfForPredict.py
@@ -67,7 +66,7 @@ You can return the final forecast to two files, force or energy
 Plot figure (TODO)
 
 
-	6. ANN predict
+6. ANN predict
 
 
 	* ReadAseTrajectory.py
@@ -84,7 +83,7 @@ Xdatcar-based on the name of poscar, you can set the output every few times, it 
 
 
 TODO
-	7. Else
+7. Else
 
 
 	* new_vasp2force.py
