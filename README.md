@@ -1,7 +1,7 @@
 # aenett
 aenet package  tools 
 This tools used to connect aenet and VASP files
-#####Now only have chinese version
+##Now only have chinese version
 
 	1. Running MD，you can get XDATCAR and OUTCAR
 
