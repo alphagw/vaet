@@ -5,19 +5,17 @@ This tools used to connect aenet and VASP files
 
 1. Running MD，you can get XDATCAR and OUTCAR
 
-
-
 	* PoscarFromXdatacarAse.py    
 
-you can use for get poscar from xdatcar according to you set number and space (need ASE)
+	you can use for get poscar from xdatcar according to you set number and space (need ASE)
 
 	* PoscarFromXdatcar_noASE.py
 
-you can use for get poscar from xdatcar according to you set number and space ( Don't need ASE)
+	you can use for get poscar from xdatcar according to you set number and space ( Don't need ASE)
 
 	* ConvertCoordinate.py
 
-you can convert fraction poscar to cartesian or reverse. ( need ASE)
+	you can convert fraction poscar to cartesian or reverse. ( need ASE)
 
 
 2. When you get all POSCAR，you can running static calculate，and for each POSCAR you will get a OUTCAR in a file. So you can use following scripts to get xsf from different type of OUTCAR file(Maybe all md results in only one OUTCAR or static results in each one OUTCAR) ：
