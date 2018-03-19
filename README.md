@@ -6,6 +6,7 @@ This tools used to connect aenet and VASP files
 1. Running MD，you can get XDATCAR and OUTCAR
 
 
+
 	* PoscarFromXdatacarAse.py    
 
 you can use for get poscar from xdatcar according to you set number and space (need ASE)
