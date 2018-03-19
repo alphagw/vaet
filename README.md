@@ -1,6 +1,7 @@
 # aenett
-aenet package  tools 
-This tools used to connect aenet and VASP files
+aenet package  tools .
+
+This tools used to connect aenet and VASP.
 
 
 1. Running MD，you can get XDATCAR and OUTCAR
@@ -81,8 +82,8 @@ TODO
 
 
 TODO
-7. Else
 
+7. Else
 
 	* new_vasp2force.py
 
