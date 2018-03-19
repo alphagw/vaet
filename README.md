@@ -1,5 +1,5 @@
-# vaet
-vaet package tools .
+# væt
+væt package tools .
 
 This tools used to connect aenet and VASP.
 
